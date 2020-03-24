@@ -4,6 +4,7 @@
 # Supervised Learning
 ## 1. K Nearest Neighbour
 Classified Medical record dataset to determine whether a person has Heart Disease or not.
+
 **Distance Metrics used -** Euclidean, Minkowski, Inner Product, Gaussian Kernel, Cosine.
 **Evaluation Metric -** F1 Score
 **Data Transformations -** Normalizing Feature Vector, Min-max Scaling on Feature Vector
