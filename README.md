@@ -2,4 +2,4 @@
  Machine Learning models
  
 # Supervised learning
- ## 1. K Nearest Neighbour
+## 1. K Nearest Neighbour
