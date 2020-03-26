@@ -48,11 +48,13 @@ Classified **MNIST database of Handwritten digits** by computing **Derivates** f
 
 # Unsupervised Learning
 ## K-Means
-### Datasets ###
-1. Toy Dataset - 2D (Generated from 4 Gaussian Distributions).  
-2. Digits Dataset - From sklearn (8 x 8 per digit - 10 classes).  
+Implemented Expectation-Maximization (EM) algorithm to perform K-Means clustering and applied it to two datasets for Image compression and Handwritten Digit identification.
 
-**Functionalities -** Get_KMeans++-Centroids, Fit_Data_to_Centroids, Predict_Centroid_for_Data, Transform_Image.
+### Datasets ###
+1. Toy Dataset - 2D (Generated from 4 Gaussian Distributions)  
+2. Digits Dataset - From sklearn (8 x 8 per digit - 10 classes)  
+
+**Functionalities -** Get_KMeans++-Centroids, Fit_Data_to_Centroids, Predict_Centroid_for_Data, Transform_Image
 
 ### 1. Implement K-Means++ Clustering ###
 Cluster centers were chosen based on high probability of them being apart.
@@ -65,4 +67,13 @@ Performed Lossy Image Compression by replacing each cluster with its centroid.
 
 
 # Probabilistic Learning
-## 1. Hidden Markov Model
+## Hidden Markov Model
+Calculated HMM parameters from the Dataset and solved Part-of-Speech Tagging problem.
+
+**Functionalities -** Forward, Backward, Sequence_Probability, Posterior_Probability, Likelihood_Probability, Viterbi_Algorithm  
+**Parameters -** pi, A, B, observation_dict, state_dict, observation_sequence   **Algorithm -** Viterbi - Dynamic Programming Algorithm to find Most likely sequence of hidden states
+### Speech Tagging ###
+1. Model Training  
+2. Speech Tagging  
+3. Predict Tagging  
+4. True Tagging
