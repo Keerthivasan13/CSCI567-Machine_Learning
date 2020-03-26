@@ -48,10 +48,21 @@ Classified **MNIST database of Handwritten digits** by computing **Derivates** f
 
 # Unsupervised Learning
 ## K-Means
-### 1. Cluster Identification ###
-### 2. Image Compression ###
+### Datasets ###
+1. Toy Dataset - 2D (Generated from 4 Gaussian Distributions).  
+2. Digits Dataset - From sklearn (8 x 8 per digit - 10 classes).  
+
+**Functionalities -** Get_KMeans++-Centroids, Fit_Data_to_Centroids, Predict_Centroid_for_Data, Transform_Image.
+
+### 1. Implement K-Means++ Clustering ###
+Cluster centers were chosen based on high probability of them being apart.
+### 2. Cluster Identification ###
+Nearest cluster to the datapoints were identified.
 ### 3. Implement Classfication ###
-### 4. Implement K-Means++ Clustering ###
+Every datapoint belongs to the class of its cluster's centroid.
+### 4. Image Compression ###
+Performed Lossy Image Compression by replacing each cluster with its centroid.
+
 
 # Probabilistic Learning
 ## 1. Hidden Markov Model
