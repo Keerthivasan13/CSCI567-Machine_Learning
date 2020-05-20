@@ -1,5 +1,7 @@
-# ML-CSCI567
- Machine Learning models - **Python** + **NumPy** (No Additional Libraries)
+# CSCI567 - Machine Learning
+ Contains Machine Learning models developed from the course taught by Prof. Victor Adamchik
+
+**Language used :** Python 3.7, NumPy (No Additional Libraries)
   
 # Supervised Learning
 ## 1. K Nearest Neighbour
